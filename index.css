@@ -1,0 +1,69 @@
+:root {
+    --font-size: 16pt;
+    --font-family: monospace;
+    --min-width: 53px;
+    --min-height: 53px;
+    --margin: 3px;
+    --padding: 3px;
+    --background-color-button-default: #e0e0e0;
+}
+body {
+    font-size: var(--font-size); font-family: var(--font-family);
+}
+button {
+    font-size: var(--font-size); font-family: var(--font-family);
+    margin: var(--margin); padding: var(--padding);
+    min-width: var(--min-width); min-height: var(--min-height);
+    background-color: var(--background-color-button-default); border-style: none;
+}
+button.yohaku_chousei {
+    min-height: 20px;
+    background-color: #ffffff;
+}
+button.nichiji {
+    margin: 0px; padding: 0px;
+    min-width: 10px; min-height: 10px;
+}
+button.joutai {
+    background-color: #ffffff;
+}
+button.date {
+    min-width: calc(var(--min-width) * 3 + var(--margin) * 4);
+    background-color: #f0f0f0;
+}
+button.c {
+    width: var(--min-width);
+    min-height: 20px;
+    background-color: var(--background-color-button-default);
+}
+button.c1 {
+    min-width: 10px; min-height: 20px;
+    color: #0000a0; background-color: #ffffff;
+}
+button.table {
+    margin: 0px; padding: 0px;
+    min-width: 0px; min-height: 20px;
+    color: #0000a0; background-color: #ffffff;
+}
+span {
+    font-size: var(--font-size); font-family: var(--font-family);
+    margin: var(--margin); padding: var(--padding);
+}
+span.c {
+    color: #ff00ff;
+}
+input {
+    font-size: var(--font-size); font-family: var(--font-family);
+    margin: var(--margin); padding-left: var(--padding);
+    min-width: var(--min-width); min-height: var(--min-height);
+}
+textarea {
+    font-size: var(--font-size); font-family: var(--font-family);
+}
+table {
+    font-size: var(--font-size); font-family: var(--font-family);
+    table-layout: fixed; border-collapse: collapse;
+}
+td {
+    white-space: nowrap; text-align: right;
+}
